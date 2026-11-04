@@ -201,7 +201,7 @@ function Index() {
 
       {/* HERO */}
       <section className="relative flex min-h-[100svh] items-end text-forest-foreground">
-        <img src={heroImg} alt="Pescador em silhueta lançando a linha em um rio ao amanhecer" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover" />
+        <img src={heroImg} alt="Pescador em silhueta lançando a linha em um rio ao amanhecer" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover object-[25%_center]" />
         <div className="absolute inset-0 bg-hero-overlay" aria-hidden />
         <div className="relative mx-auto w-full max-w-6xl px-5 pb-16 pt-28 md:pb-24">
           <div className="max-w-3xl animate-rise">
@@ -212,6 +212,10 @@ function Index() {
             <div className="mt-6 space-y-3 text-base opacity-90 md:text-lg">
               <p>Você prepara tudo, escolhe um lugar, coloca a isca no anzol e espera... Mas os peixes não aparecem.</p>
               <p>E a dúvida começa: será que estou usando a isca errada? Será que montei o equipamento corretamente? Será que estou pescando no lugar errado?</p>
+            </div>
+            <div className="mt-8 flex flex-col items-start gap-3">
+              <CtaButton size="lg">Quero aprender a pescar agora</CtaButton>
+              <p className="text-sm tracking-wide opacity-75">Acesso digital • Conteúdo para iniciantes • Aprenda no seu ritmo</p>
             </div>
           </div>
         </div>
